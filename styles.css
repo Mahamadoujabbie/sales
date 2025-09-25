@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#sales{
+    padding-left:10px;
+    margin-left: 30px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px black;
+    background-color: blue;
+    color: white;
+}
+
+#container{
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0 0 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#item{
+    width: 335px;
+}
+
+#price_box{
+    display: flex;
+    gap: 5px;
+}
+
+li{
+    background-color: antiquewhite;
+    height: 40px;
+    list-style: none;
+     box-shadow: 0 0 1px black;
+}
+
+#price, #unit{
+    border: none;
+    outline: none;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#Cancel, #pay{
+    width: 150px;
+    height:30px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    color: azure;
+    border-radius: 5px;
+     box-shadow: 0 0 1px black;
+}
+
+#Cancel{
+    background-color: red;
+}
+
+#pay{
+    background-color: green;
+}
